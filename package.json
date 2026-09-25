@@ -1,7 +1,7 @@
 {
   "name": "td-colors-structures",
   "version": "1.0.0",
-  "description": "",
+  "description": "Type-safe color structures for RGBA, HEXA and named colors with manipulation utilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,7 +15,13 @@
   },
   "keywords": [
     "colors",
-    "utilities",
+    "color-library",
+    "color-structures",
+    "rgb",
+    "rgba",
+    "hexa",
+    "hex",
+    "named-color",
     "typescript",
     "color-conversion",
     "color-manipulation"
@@ -23,7 +29,7 @@
   "author": "Jarosław Tusiński",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",
@@ -38,5 +44,8 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "td-colors-utils": "^1.0.0"
   }
 }
